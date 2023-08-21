@@ -1,3 +1,4 @@
+import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -38,6 +39,7 @@ export default Topbar
 //                 alt="logo"
 //                 width={28}
 //                 height={28}
+ //                  Head AbortController AnimationEffect
 //                 />
 //                 <p className="text-heading3-bold text-light-1 max-xs:hidden">Threads</p>
 //             </Link>
