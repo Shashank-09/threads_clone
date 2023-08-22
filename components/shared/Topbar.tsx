@@ -10,7 +10,7 @@ function Topbar(){
                className="flex items-center gap-4"
             >
                 <Image 
-                src="/logo.svg" 
+                src="/assets/logo.svg" 
                 alt="logo"
                 width={28}
                 height={28}
@@ -22,31 +22,7 @@ function Topbar(){
     )
 }
 
-export default Topbar
+export default Topbar;
 
-// import Image from "next/image"
-// import Link from "next/link"
 
-// function Topbar(){
-//     return(
-//         <nav className="topbar">
-//             <Link
-//                href="/"
-//                className="flex items-center gap-4"
-//             >
-//                 <Image 
-//                 src="/logo.svg" 
-//                 alt="logo"
-//                 width={28}
-//                 height={28}
- //                  Head AbortController AnimationEffect
-//                 />
-//                 <p className="text-heading3-bold text-light-1 max-xs:hidden">Threads</p>
-//             </Link>
-
-//         </nav>
-//     )
-// }
-
-// export default Topbar
 
