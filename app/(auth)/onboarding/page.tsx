@@ -7,7 +7,7 @@ const user = await currentUser();
 
 const userInfo = {};
 
-const userData= {
+/*const userData= {
    id: user?.id,
    ObjectId: userInfo?._id,
    username: userInfo?.username || user?. username,
@@ -29,7 +29,7 @@ const userData= {
             />
             </section>
         </main>
-    )
+    )*/
 }
 
 export default Page;

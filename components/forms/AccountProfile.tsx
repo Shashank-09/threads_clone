@@ -151,7 +151,7 @@ const pathname = usePathname();
                 />
               </FormControl>
               
-            
+               <FormMessage />
             </FormItem>
           )}
         />
@@ -170,8 +170,7 @@ const pathname = usePathname();
                     {...field}        
                 />
               </FormControl>
-              
-            
+              <FormMessage />
             </FormItem>
           )}
         />
@@ -190,8 +189,7 @@ const pathname = usePathname();
                     {...field}        
                 />
               </FormControl>
-              
-            
+              <FormMessage />
             </FormItem>
           )}
         />
@@ -210,8 +208,7 @@ const pathname = usePathname();
                     {...field}        
                 />
               </FormControl>
-              
-            
+              <FormMessage />
             </FormItem>
           )}
         />
